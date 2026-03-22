@@ -7,6 +7,7 @@
     "dev": "vite --host",
     "build": "vite build",
     "preview": "vite preview",
+    "clean": "rm -rf dist",
     "lint": "tsc --noEmit"
   },
   "dependencies": {
@@ -19,10 +20,11 @@
   "devDependencies": {
     "vite": "^6.4.1",
     "@vitejs/plugin-react": "^5.0.4",
-    "typescript": "~5.8.2",
-    "@types/node": "^22.14.0",
+    "@tailwindcss/vite": "^4.1.14",
     "tailwindcss": "^4.1.14",
     "autoprefixer": "^10.4.21",
+    "typescript": "~5.8.2",
+    "@types/node": "^22.14.0",
     "tsx": "^4.21.0"
   }
 }
